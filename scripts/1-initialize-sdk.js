@@ -8,8 +8,6 @@ dotenv.config();
 // Some quick checks to make sure our .env is working.
 if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
   console.log("🛑 Private key not found.")
-}else{
-    console.log("Got private key!")
 }
 
 if (!process.env.ALCHEMY_API_URL || process.env.ALCHEMY_API_URL == "") {
